@@ -31,24 +31,6 @@
 - 메인: https://directg.net/
 - 세일: https://directg.net/game/search?category=sale
 
-## 성인 게임
-
-### Steam
-- 성인 콘텐츠: https://store.steampowered.com/genre/Adult%20Only%20Content/
-
-### DLsite
-- 영어: https://www.dlsite.com/eng/
-- 일본: https://www.dlsite.com/
-
-### Kagura Games
-- 메인: https://www.kaguragames.com/
-
-### JAST USA
-- 메인: https://jastusa.com/
-
-### MangaGamer
-- 메인: https://www.mangagamer.com/
-
 ## 게임 뉴스
 
 ### 해외

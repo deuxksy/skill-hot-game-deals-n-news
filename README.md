@@ -14,18 +14,16 @@ flowchart TD
     C --> E[🎁 무료 게임]
     C --> F[📝 위시리스트 할인]
     C --> G[🇰🇷 한국 판매처]
-    C --> H[🔞 성인 게임]
-    C --> I[📰 게임 뉴스]
+    C --> H[📰 게임 뉴스]
     
-    D --> J[📊 결과 취합]
-    E --> J
-    F --> J
-    G --> J
-    H --> J
-    I --> J
+    D --> I[📊 결과 취합]
+    E --> I
+    F --> I
+    G --> I
+    H --> I
     
-    J --> K[📝 리스트 포맷팅<br/>이모지로 카테고리 구분]
-    K --> L[📱 Telegram 전송]
+    I --> J[📝 리스트 포맷팅<br/>이모지로 카테고리 구분]
+    J --> K[📱 Telegram 전송]
     
     subgraph Sources
         D --> D1[SteamDB]
@@ -34,8 +32,8 @@ flowchart TD
         E --> E2[GOG]
         E --> E3[Steam]
         E --> E4[itch.io]
-        I --> I1[해외: Kotaku, IGN, PC Gamer]
-        I --> I2[국내: 인벤, 디스이즈게임]
+        H --> H1[해외: Kotaku, IGN, PC Gamer]
+        H --> H2[국내: 인벤, 디스이즈게임]
     end
 ```
 
@@ -54,9 +52,6 @@ flowchart TD
 
 ### 🇰🇷 한국 판매처
 - 다이렉트게임즈 (DirectG)
-
-### 🔞 성인 게임
-- Steam, DLsite, Kagura Games, JAST USA, MangaGamer
 
 ### 📰 게임 뉴스
 - 해외: Kotaku, IGN, PC Gamer, Eurogamer, Rock Paper Shotgun
