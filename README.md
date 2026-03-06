@@ -11,6 +11,43 @@ OpenClaw 스킬 - 게임 세일, 무료 게임, 뉴스를 체크해서 리스트
 4. **뉴스 요약** → 해외/국내 게임 뉴스 요약
 5. **리스트로 정리** → 이모지로 카테고리 구분해서 Telegram으로 전송
 
+## 동작 순서
+
+```mermaid
+flowchart TD
+    A[⏰ Cron 트리거<br/>매일 오전 9시 GMT+7] --> B[🔄 스킬 로드]
+    
+    B --> C{📋 정보 수집}
+    
+    C --> D[🔥 Steam 세일]
+    C --> E[🎁 무료 게임]
+    C --> F[📝 위시리스트 할인]
+    C --> G[🇰🇷 한국 판매처]
+    C --> H[🔞 성인 게임]
+    C --> I[📰 게임 뉴스]
+    
+    D --> J[📊 결과 취합]
+    E --> J
+    F --> J
+    G --> J
+    H --> J
+    I --> J
+    
+    J --> K[📝 리스트 포맷팅<br/>이모지로 카테고리 구분]
+    K --> L[📱 Telegram 전송]
+    
+    subgraph Sources
+        D --> D1[SteamDB]
+        D --> D2[IsThereAnyDeal]
+        E --> E1[Epic Games]
+        E --> E2[GOG]
+        E --> E3[Steam]
+        E --> E4[itch.io]
+        I --> I1[해외: Kotaku, IGN, PC Gamer]
+        I --> I2[국내: 인벤, 디스이즈게임]
+    end
+```
+
 ## 기능
 
 ### 🔥 게임 세일
