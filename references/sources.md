@@ -61,6 +61,3 @@
 ### 국내
 - 인벤: https://www.inven.co.kr/
 - 디스이즈게임: https://www.thisisgame.com/
-
-### 유튜브 (번역 채널)
-- 모험러의 어드벤처: https://youtube.com/@kradventurer
