@@ -2,6 +2,10 @@
 
 OpenClaw 스킬 - 게임 세일, 무료 게임, 뉴스를 체크해서 리스트 형태로 보고
 
+![Hot Game Deals Whishlist](references/deal-example-1.jpg)
+![Hot Game Deals HumbleCoice](references/deal-example-2.jpg)
+![Game New Head Line](references/deal-example-3.jpg)
+
 ## 동작 순서
 
 ```mermaid
